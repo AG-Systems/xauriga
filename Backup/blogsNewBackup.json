@@ -1,0 +1,33 @@
+{
+    "blogs": [
+        {
+            "header": "Welcome",
+            "author": "Auriga",
+            "team"  : "Webmaster",
+            "date"  : ["2015", "12", "12"],
+            "paragraphs" : [
+                "Template"
+            ],
+            "images": []
+        }
+    ],
+    
+    "members": {
+        "mentors" : [
+            { "firstname": "Christina", "lastname": "Wade",     "portrait": "" }
+        ],
+        "leads": [
+            { "firstname": "template",      "lastname": "template",    "portrait": "template"
+                , "grade": "template" , "title": "Template"     }
+        ],
+        "engineers": [
+            { "firstname": "template",     "lastname": "template",      "portrait": "", "grade": 0 }
+        ],
+        "programmers": [
+            { "firstname": "template",      "lastname": "template","portrait": "", "grade": 0 }
+        ],
+        "business": [
+            { "firstname": "template",    "lastname": "template",      "portrait": "", "grade": 0 }
+        ]
+    }
+}

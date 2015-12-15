@@ -1,0 +1,14 @@
+<div class="postEntry" ng-repeat="blog in blogs | startFrom: currentPage * maxBlogs | limitTo: maxBlogs" >
+	<article>
+		<header>
+			<span><time x-iso-time="{{ blog.date.toISOString() }}">{{ blog.getDatePlain() }}</time></span>
+			<h1>{{ blog.header }}</h1>
+		</header>
+        <img ng-show="isMostRecent(blog.index)" ng-src="{{ blog.images[0] }}" />
+		<p id="postPreview">{{ blog.paragraphs[0] | limitTo: limitText(blog.index) }}...</p><a href="#!/posts/{{ blog.index }}">Read more</a>
+	</article>
+</div>
+<!-- Next/previous buttons -->
+<button ng-disabled="currentPage == 0" ng-click="currentPage = currentPage - 1;">Previous</button>
+{{currentPage + 1}} / {{ numPages() }}
+<button ng-disabled="currentPage >= blogs.length / maxBlogs - 1" ng-click="currentPage = currentPage + 1;">Next</button>

@@ -1,0 +1,68 @@
+{
+    "blogs": [
+        {
+            "header": "Welcome",
+            "author": "Auriga",
+            "team"  : "Webmaster",
+            "date"  : ["2015", "12", "12"],
+            "paragraphs" : [
+                "Template"
+            ],
+            "images": []
+        }
+    ],
+    
+    "members": {
+        "mentors" : [
+            { "firstname": "Christina", "lastname": "Wade",     "portrait": "" }
+        ],
+        "leads": [
+            { "firstname": "Sami",      "lastname": "Solow",    "portrait": ""
+                , "grade": 12, "title": "Team Captain"     },
+            { "firstname": "Cameron",   "lastname": "Chen",     "portrait": ""
+                , "grade": 12, "title": "Team Captain"     },
+            { "firstname": "Reuben",    "lastname": "Grossman", "portrait": ""
+                , "grade": 11, "title": "Engineering Lead" },
+            { "firstname": "Cuyler",    "lastname": "Crandall", "portrait": ""
+                , "grade": 11, "title": "Engineering Lead" },
+            { "firstname": "Connor",    "lastname": "Aitken",   "portrait": ""
+                , "grade": 12, "title": "Engineering Lead" },    
+            { "firstname": "Leon",      "lastname": "Cheung",   "portrait": ""
+                , "grade": 12, "title": "Programming Lead" },
+            { "firstname": "Peter",     "lastname": "Skidmore", "portrait": ""
+                , "grade": 11, "title": "Programming Lead" },
+            { "firstname": "Morgan",    "lastname": "Ome",      "portrait": ""
+                , "grade": 12, "title": "Business Lead"    },
+            { "firstname": "Gracie",    "lastname": "Kober",    "portrait": ""
+                , "grade": 10, "title": "Business Lead"    },
+            { "firstname": "Meredith",  "lastname": "Nash",     "portrait": ""
+                , "grade": 10, "title": "Treasurer"        }
+        ],
+        "engineers": [
+            { "firstname": "Alton",     "lastname": "Shu",      "portrait": "", "grade": 11 },
+            { "firstname": "Thomas",    "lastname": "Masterson","portrait": "", "grade": 11 },
+            { "firstname": "Lucy",      "lastname": "Cummings", "portrait": "", "grade": 11 },
+            { "firstname": "Stella",    "lastname": "Yang",     "portrait": "", "grade": 9  },
+            { "firstname": "Jackson",   "lastname": "Gravagno", "portrait": "", "grade": 9  },
+            { "firstname": "Jason",     "lastname": "Fong",     "portrait": "", "grade": 9  },
+            { "firstname": "Rory",      "lastname": "Douglass", "portrait": "", "grade": 9  },
+            { "firstname": "Kyle",      "lastname": "Doran",    "portrait": "", "grade": 9  },
+            { "firstname": "William",   "lastname": "Kjærulff-Jørgensen","portrait": "", "grade": 11  },
+            { "firstname": "Jared",     "lastname": "Birmingham","portrait": "", "grade": 9 }
+        ],
+        "programmers": [
+            { "firstname": "Max",      "lastname": "C","portrait": "", "grade": 11 },
+            { "firstname": "Chase",    "lastname": "Maramgu",   "portrait": "", "grade": 9  },
+            { "firstname": "Isabel",   "lastname": "Dominik",   "portrait": "", "grade": 9  },
+            { "firstname": "Austin",   "lastname": "Soohoo",    "portrait": "", "grade": 9  }
+        ],
+        "business": [
+            { "firstname": "David",    "lastname": "Zhou",      "portrait": "", "grade": 11 },
+            { "firstname": "Tegan",    "lastname": "Alberts",   "portrait": "", "grade": 9  },
+            { "firstname": "Caroline", "lastname": "Pease",     "portrait": "", "grade": 9  },
+            { "firstname": "Carolyn",  "lastname": "Tang",      "portrait": "", "grade": 9  },
+            { "firstname": "Mary",     "lastname": "Perez",     "portrait": "", "grade": 11 },
+            { "firstname": "Kevin",    "lastname": "Taggart",   "portrait": "", "grade": 9  }
+        ]
+    }
+}

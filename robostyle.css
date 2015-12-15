@@ -1,0 +1,256 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* Global */
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    /*display: block;*/
+}
+title {
+    display: none;
+}
+body {
+    overflow: scroll;
+    color: #000;
+}
+
+/* Header image. */
+#banner {
+    background-size: cover;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover;    /* Mozilla*/
+        -o-background-size: cover;      /* Opera*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 350px;
+    min-height: 350px;
+    margin: -8px -8px 0 -8px;
+    padding: 15px 0;
+    text-align: center;
+    width: auto;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+        box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+#logo {
+    margin-top: 135px;
+    width: 195px;
+    height: 130px;
+}
+#banner h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+#banner a {
+    text-decoration: none;
+}
+
+/* Encompasses all elements under the header. */
+#container {
+    position: relative;
+    margin: 12px auto;
+    width: 900px;
+    overflow: auto;
+}
+
+/* Navigation sidebar. */
+#navBack {
+    height: 50px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 7px;
+    background-color: #AA0000;
+    opacity: 0.9;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+        box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+    z-index: 9999;
+
+}
+
+nav {
+    margin: 0px auto;
+    margin-left: 7%;
+    width: 800px;
+}
+
+nav ul {
+    float: center;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li {
+    padding: 5px 15px 5px 15px;
+    float: left;
+    font-size: 20px;
+    transition: color .2s;
+        transition-property: color;
+        transition-duration: 0.2s;
+        transition-timing-function: initial;
+        transition-delay: initial;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+nav a:hover, nav li:hover, .highlight {
+    color: #FFFFFF
+}
+
+/* News feed. */
+.posts {
+    width: 70%;
+    float: right;
+    overflow: hidden;
+}
+time {
+    margin-top: 10px;
+    display: inline-block;
+    color: #9EABB3;
+}
+.postEntry {
+    margin-bottom: 15px;
+}
+.postEntry h1 {
+    margin: 0 auto;
+}
+.postEntry h2 {
+    margin: 0 auto;
+    font-size: 14px;
+}
+.postEntry img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    height: 400px;
+    width: auto;
+}
+#postPreview {
+    margin-bottom: -2.5px;
+}
+
+/* Sidebar. */
+#sidebar {
+    float: left;
+    display: block;
+    position: relative;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+}
+#sidebar iframe {
+    margin: 10px 10px 10px 0;
+}
+#sidebar ul {
+    list-style: none;
+} 
+#sidebar img {
+    height: 50px;
+    width: auto;
+    margin: 0 10px;
+}
+
+.rosterTable {
+    font-size: 14px;
+    text-align: left;
+    width: 480px;
+    border-collapse: collapse;
+    color: #5c5c5c;
+    margin: 20px 0px;
+}
+
+.rosterTable th {
+    font-size: 18px;
+    border-bottom: 2px solid;
+    border-color: #aa6363;
+    padding: 0px 5px 2px 5px;
+    color: #000000;
+}
+
+.rosterTable td {
+    padding: 5px 5px;
+    border-bottom: 1px solid;
+    border-color: #aa6363;
+}
+
+.rosterTable tbody tr:hover, tbody tr.alt:hover {
+    color: #000000;
+    background-color: #FFDDDD;
+}
+
+th.name {
+    color: #a20000;
+}
+th.grade {
+    text-align: right;
+}
+td.grade {
+    text-align: right;
+}
+
+
+
+
+/* Contact page/form. */
+#form {
+    font-size: 18px;
+    width: 100%;
+}
+#form #box {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+}
+input[type="submit"] {
+    background: rgb(66, 184, 221);
+    padding : 15px 80px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover {
+    background: rgb(44, 180, 200);
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+}
+textarea {
+     height: 120px;
+     overflow: auto;
+     resize: none;
+}
+
+/* Footer, where credits are given. */
+#footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+}
+#footer a {
+    text-decoration: none;
+    -webkit-transition: color .3s;
+    -o-transition: color .3s;
+    -moz-transition: color .3s;
+    color: #9EABB3;
+}
+#footer a:visited {
+    color: #9EABB3;
+}
+#footer a:hover { 
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    color: #3399CC; 
+}
+#footer a:active {
+    color: #3399FF;
+}

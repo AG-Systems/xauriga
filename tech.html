@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app=ironBlog>
+	<head>
+		<title> Elite</title>
+		<meta name="description" content="" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<link href="robostyle.css" type="text/css" rel="stylesheet" />
+		<script src="scripts/angular.min.js"></script>
+		<script src="scripts/angular-route.min.js"></script>
+		<script src="scripts/angular-sanitize.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</head>
+
+	<body>
+		<header id="banner" role="banner">
+			<a href="#/">
+				<!-- <img id="logo" src="imgs/panther.svg" /> -->
+				<img id="logo" src="imgs/logo2.png" />
+				<h1>Elite Tech</h1>
+			</a>
+		</header>
+		<div id="container">
+			<div id="navBack">
+				<nav>
+					<ul id="navbar">
+						<a href="index.html"><li>Home</li></a>
+						<a href="citetech.html"><li>Source</li></a>
+						<a href="#!/roster"><li></li></a>
+						<a href="#!/resources"><li></li></a>
+						<a href="#!/eblog"><li></li></a>
+						<a href="#!/about"><li></li></a>
+						<a href="#!/sponsors"><li></li></a>
+						<a href="#!/publicity"><li></li></a>
+					</ul>
+				</nav>
+			</div>
+			<main id="blogs" ng-controller="BlogController" role="main">
+				<!-- This div changes based on the URL or what the user has clicked. -->
+				<div ng-view class="posts"></div>
+			</main>
+		</div>
+		<div id="footer"><a href="https://github.com/fsxfreak/iron-panthers-web">Site created by Stanley K and Leon C. Modified by Auriga. Copyright &copy; 2015.</a></div>
+	</body>
+	<script type="text/javascript">randomizeImage()</script>
+</html>
