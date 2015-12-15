@@ -23,3 +23,8 @@ Setup:
   csslinks.css is linked to links.html
 
   robostyles.css is linked to tech.html
+  
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
