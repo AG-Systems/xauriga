@@ -24,7 +24,8 @@ Setup:
 
   robostyles.css is linked to tech.html
   
-| First Header  | Second Header |
+| Python Setup  | Html + Css + JS|
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Newspaper  | Content Cell  |
+| n1tk  | Content Cell  |
+| n1tk.download() is required for the first time. | blah blah |
