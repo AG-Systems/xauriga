@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html lang="en" ng-app=ironBlog>
+	<head>
+		<title> Elite</title>
+		<meta name="description" content="" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<link href="robostyle.css" type="text/css" rel="stylesheet" />
+		<script src="scripts/angular.min.js"></script>
+		<script src="scripts/angular-route.min.js"></script>
+		<script src="scripts/angular-sanitize.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</head>
+
+	<body>
+		<header id="banner" role="banner">
+			<a href="#/">
+				<!-- <img id="logo" src="imgs/panther.svg" /> -->
+				<img id="logo" src="imgs/logo2.png" />
+				<h1>Elite Tech</h1>
+			</a>
+		</header>
+		<div id="container">
+			<div id="sidebar">
+				<html>
+				<head>
+				    <title></title>
+				    <meta charset="utf-8">
+				    <link rel="stylesheet" type="text/css" href="theme.css">
+				</head>
+				<body>
+				<div id="menuwrapper">
+				        <ul id="sidemenu">
+				            <li><a class="noflyout selected" href="index.html">Home</a></li>
+				            <li><a href="#">Projects</a>
+				                <ul>
+				                    <li> Container 1
+				                    </li>
+				                </ul>
+				            </li>
+				            <li><a href="#">Sales</a>
+				                <ul>
+				                    <li> Container 2
+				                    </li>
+				                </ul>
+				            </li>
+				            <li><a class="noflyout " href="citetech.html">Source</a></li>
+				    	</ul>
+				</div>
+				</body>
+				</html>
+			</div>
+			<main id="blogs" ng-controller="BlogController" role="main">
+				<!-- This div changes based on the URL or what the user has clicked. -->
+				<div ng-view class="posts"></div>
+			</main>
+		</div>
+		<div id="footer"><a href="https://github.com/fsxfreak/iron-panthers-web">Site created by Stanley K and Leon C. Modified by Auriga. Copyright &copy; 2015.</a></div>
+	</body>
+	<script type="text/javascript">randomizeImage()</script>
+</html>
