@@ -294,7 +294,7 @@ body {
 }
 
 #slide-2 {
-	background-color: #333333;
+	background-color: #1a1a1a;
 	/* 	background-color: #1abc9c; */
 	color: #e4e6e5;
 	padding-top: 90px;
@@ -606,12 +606,13 @@ body {
 /* new */
 
 
-.slide {
+.slidevideo {
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding-bottom: 65px;
 	padding-top: 50px;
 	text-align: center;
+
 }
 
 #video {
