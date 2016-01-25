@@ -604,3 +604,49 @@ body {
 	cursor: pointer;
 }
 /* new */
+
+
+.slide {
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-bottom: 65px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#video {
+	background-image: url('../images/bg4.jpg');
+	color: #33333;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+}
+
+#video h1 {
+	padding-top: 130px;
+	color: white;
+}
+
+@media (max-width: 991px) {
+	#video {
+		background-position: -70% 0, 170% 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#video {
+		background-image: none;
+	}
+}
+.font-thin-video
+{
+	color:white;
+}
