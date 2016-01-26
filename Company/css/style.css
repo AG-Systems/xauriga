@@ -691,7 +691,6 @@ body {
   font-size: 100%;
   font-family: "PT Sans", sans-serif;
   color: #3e585f;
-  background-color: #47374e;
 }
 body::after {
   /* dark overlay layer - visible when we fire .cd-quick-view */
@@ -1085,7 +1084,7 @@ header h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "PT Sans", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-size: 1rem;
   cursor: pointer;
 }
