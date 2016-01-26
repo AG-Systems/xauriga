@@ -651,3 +651,24 @@ body {
 {
 	color:white;
 }
+#button
+{
+    border: 2px solid #ffaa00;
+    padding: 10px 40px;
+    background: #ffcc66;
+    width: 300px;
+    border-radius: 25px;
+		font-size: 19pt;
+		margin-top: 20px;
+		font-family: "Titillium Web", sans-serif;
+		cursor: pointer;
+		top: 50%;
+		left: 50%;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		transform: translate(-50%, -50%);
+}
+.valk
+{
+  cursor:pointer;
+	display:block;
+}
