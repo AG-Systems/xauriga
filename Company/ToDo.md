@@ -8,6 +8,7 @@ Fix so the pics are smaller.
 
 
 Name for products:
+
   Valkryie
   
   Trigon
