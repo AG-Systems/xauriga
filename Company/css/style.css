@@ -672,6 +672,8 @@ body {
   cursor:pointer;
 	display:block;
 }
+/* new stuff */
+
 /* --------------------------------
 
 Primary style
@@ -699,7 +701,9 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(71, 55, 78, 0.8);
+  /* background: rgba(71, 55, 78, 0.8); */
+	/*color when clicked */
+	background: rgba(26, 26, 26, .9999);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -830,7 +834,8 @@ header h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #392c3f;
+    background-color: rgba(26, 26, 26, 0.98);
+		/* background color of square when clicked */
   }
 }
 
@@ -851,9 +856,12 @@ header h1 {
   -webkit-transition: opacity 0.2s, background-color 0.2s;
   -moz-transition: opacity 0.2s, background-color 0.2s;
   transition: opacity 0.2s, background-color 0.2s;
+	font-size: 30px;
 }
 .no-touch .cd-trigger:hover {
   background: rgba(0, 0, 0, 0.2);
+	font-size: 30px;
+	color: white;
 }
 @media only screen and (min-width: 1024px) {
   .cd-trigger {
@@ -1056,12 +1064,12 @@ header h1 {
 }
 .cd-item-info h2 {
   font-size: 28px;
-  font-size: 1.75rem;
 }
 .cd-item-info p {
   line-height: 1.6;
   margin: 1em 0;
   color: #67919c;
+	font-size: 20px;
 }
 .cd-item-info .cd-item-action li {
   display: inline-block;
@@ -1085,7 +1093,6 @@ header h1 {
   -moz-osx-font-smoothing: grayscale;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
-  font-size: 1rem;
   cursor: pointer;
 }
 .add-content .cd-item-info {
@@ -1108,6 +1115,7 @@ header h1 {
   -webkit-animation: cd-slide-in 0.5s;
   -moz-animation: cd-slide-in 0.5s;
   animation: cd-slide-in 0.5s;
+	font-size: 20px;
 }
 
 @-webkit-keyframes cd-slide-in {
