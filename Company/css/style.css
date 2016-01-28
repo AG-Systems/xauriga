@@ -736,8 +736,8 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 1170px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .cd-container:after {
@@ -811,7 +811,8 @@ header h1 {
     float: left;
     margin: 0 4% 2em 0;
   }
-  .cd-item:nth-child(2n) {
+  .cd-item:nth-child(2n)
+	{
     margin-right: 0;
   }
 }
