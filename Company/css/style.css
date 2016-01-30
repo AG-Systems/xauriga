@@ -673,14 +673,14 @@ body {
 	display:block;
 }
 /* new stuff */
-#valkryie-banner
+#valkyrie-banner
 {
 			width: 1920px;
 			height: 200px;
 			background-image: url('../images/valkryie-product.png');
 
 }
-#slide-valkryie {
+#slide-valkyrie {
 	background-image: url('../images/bg5.jpg');
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -698,12 +698,12 @@ body {
 	height: 250px;
 }
 
-#slide-valkryie h1 {
+#slide-valkyrie h1 {
 
 }
 
 @media (max-width: 991px) {
-	#slide-valkryie {
+	#slide-valkyrie {
 		background-position: -70% 0, 170% 0;
 	}
 }
