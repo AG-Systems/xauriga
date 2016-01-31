@@ -734,3 +734,13 @@ body {
 		background-position: -70% 0, 170% 0;
 	}
 }
+
+.fullwidth {
+width:100%;
+margin-left:0;
+margin-right:0;
+padding-left:0;
+padding-right:0;
+display:block;
+text-align:center; /*This will result in centering the link text, which is probably what you want -brianjohnsondesign.com*/
+}
