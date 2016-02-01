@@ -443,7 +443,7 @@ body {
 
 
 #slide-5 {
-	background-color: #f39c12;
+	background-color: #1a1a1a;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -753,4 +753,92 @@ body {
 }
 .button-expand:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.valkyrie-expand
+{
+	width: 100%;
+	height: 200px;
+	color: white;
+}
+.button-addtocart {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ff3333;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-addtocart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-addtocart span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-addtocart:hover span {
+  padding-right: 25px;
+}
+
+.button-addtocart:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* button video */
+
+
+/* =========== */
+.button-video {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ff5050;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-video span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-video span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-video:hover span {
+  padding-right: 25px;
+}
+
+.button-video:hover span:after {
+  opacity: 1;
+  right: 0;
 }
