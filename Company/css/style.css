@@ -841,4 +841,140 @@ body {
 .button-video:hover span:after {
   opacity: 1;
   right: 0;
+/* new stuffff */
 }
+#slide-company-1 {
+	background-image: url('../images/bg7.jpg');
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+}
+
+#slide-company-1 h1 {
+	padding-top: 130px;
+}
+
+@media (max-width: 991px) {
+	#slide-company-1 {
+		background-position: -70% 0, 170% 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#slide-company-1 {
+		background-image: none;
+	}
+}
+
+	#home-row-company-1 {
+		padding-top: 25px;
+	}
+
+	#home-row-company-1 h1 {
+		font-size: 54px;
+	}
+
+	#home-row-company-1 h4 {
+		font-size: 32px;
+	}
+	#slide-company-1 {
+		background-image: url('../images/bg7.jpg');
+		color: #ffffff;
+	    -webkit-background-size: 100%;
+	    -moz-background-size: 100%;
+	    -o-background-size: 100%;
+	    background-size: 100%;
+
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    width: 100%;
+		background-attachment: relative;
+		background-position: center center;
+	}
+
+	#slide-company-1 h1 {
+		padding-top: 130px;
+	}
+
+	@media (max-width: 991px) {
+		#slide-company-1 {
+			background-position: -70% 0, 170% 0;
+		}
+	}
+
+	@media (max-width: 767px) {
+		#slide-company-1 {
+			background-image: none;
+		}
+	}
+
+		#home-row-company-1 {
+			padding-top: 25px;
+		}
+
+		#home-row-company-1 h1 {
+			font-size: 54px;
+		}
+
+		#home-row-company-1 h4 {
+			font-size: 32px;
+		}
+/* next slide */
+
+
+#slide-company-2 {
+	background-image: url('../images/bg10.jpg');
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+}
+
+#slide-company-2 h1 {
+	padding-top: 130px;
+}
+
+@media (max-width: 991px) {
+	#slide-company-2 {
+		background-position: -70% 0, 170% 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#slide-company-2 {
+		background-image: none;
+	}
+}
+
+	#home-row-company-2 {
+		padding-top: 25px;
+	}
+
+	#home-row-company-2 h1 {
+		font-size: 54px;
+	}
+
+	#home-row-company-2 h4 {
+		font-size: 32px;
+	}
