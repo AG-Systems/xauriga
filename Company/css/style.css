@@ -431,7 +431,7 @@ body {
 }
 
 #slide-4 {
-	background-color: #34495e;
+	background-color: #0d0d0d;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -453,6 +453,7 @@ body {
 	color: #e4e6e5;
 	padding-bottom: 350px;
 	padding-top: 90px;
+	max-height: 100px;
 }
 
 @media (max-width: 767px) {
@@ -977,4 +978,31 @@ body {
 
 	#home-row-company-2 h4 {
 		font-size: 32px;
+	}
+	#slide-twitter {
+		background-image: url('../images/twitter.jpg');
+		color: #000000;
+	    -webkit-background-size: 100%;
+	    -moz-background-size: 100%;
+	    -o-background-size: 100%;
+	    background-size: 100%;
+
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+		background-attachment: relative;
+		background-position: center center;
+		width: 1920px;
+		height: 300px;
+	}
+
+	#slide-twitter h1 {
+		font-size: 70px;
+	}
+
+	@media (max-width: 991px) {
+		#slide-twitter {
+			background-position: -70% 0, 170% 0;
+		}
 	}
