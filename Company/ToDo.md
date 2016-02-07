@@ -22,5 +22,10 @@ Name for products:
   
   Blackhole
   
+  Ninja
+  
+  Shadow
+  
+  zero
   
   
