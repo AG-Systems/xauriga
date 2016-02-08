@@ -37,3 +37,5 @@ Name for products:
   RAID
   
   FORCE
+
+  FUSION
