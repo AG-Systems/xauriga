@@ -1014,6 +1014,7 @@ body {
 	width: 900px;
 	background-color: white;
 	float: left;
+	background-image:url("../images/bg11.jpeg");
 }
 #side
 {
@@ -1025,12 +1026,13 @@ body {
 }
 h3
 {
-	color: white;
+	color: #ff3300;
 	font-size: 50px;
 }
 p
 {
-	color: white;
+	color: #cccccc;
+	font-size: 25px;
 }
 .button-cart {
     background-color: #0d0d0d; /* Green */
@@ -1046,11 +1048,17 @@ p
     transition-duration: 0.4s;
 		max-width:100%;
 		max-height:100%;
-		min-width: 50%;
+		min-width: 90%;
 		margin: 0 auto;
 		color: #ff3300;
 
 }
 .button-cart:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#break
+{
+	width: auto;
+	max-width: 50%;
+	height: 30%;
 }
