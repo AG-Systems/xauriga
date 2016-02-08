@@ -1014,29 +1014,31 @@ body {
 	width: 900px;
 	background-color: white;
 	float: left;
-	background-image:url("../images/bg11.jpeg");
+	background-image:url("../images/bg11.jpg");
+
 }
 #side
 {
 	margin-top: 30px;
 	margin-right: 30px;
-	height: 429px;
+	height: 500px;
 	width: 900px;
 	float: right;
+
 }
 h3
 {
 	color: #ff3300;
 	font-size: 50px;
 	font-family: "Titillium Web", sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 }
 p
 {
 	color: #cccccc;
 	font-size: 25px;
 	font-family: "Titillium Web", sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 }
 .button-cart {
     background-color: #0d0d0d; /* Green */
@@ -1052,7 +1054,7 @@ p
     transition-duration: 0.4s;
 		max-width:100%;
 		max-height:100%;
-		min-width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		color: #ff3300;
 
@@ -1065,4 +1067,36 @@ p
 	width: auto;
 	max-width: 50%;
 	height: 30%;
+}
+#slide-video {
+	background-image: url('../images/bg2.jpg');
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 200%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+}
+
+#slide-video h1 {
+	padding-top: 130px;
+}
+
+@media (max-width: 991px) {
+	#slide-video {
+		background-position: -70% 0, 170% 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#slide-video {
+		background-image: none;
+	}
 }
