@@ -1100,3 +1100,10 @@ p
 		background-image: none;
 	}
 }
+#overview-valkryie
+{
+	background-color: black;
+	margin-top: 530px;
+	height: 100px;
+	width: 100%;
+}
