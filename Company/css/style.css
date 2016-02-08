@@ -1028,11 +1028,15 @@ h3
 {
 	color: #ff3300;
 	font-size: 50px;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 200;
 }
 p
 {
 	color: #cccccc;
 	font-size: 25px;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 200;
 }
 .button-cart {
     background-color: #0d0d0d; /* Green */
