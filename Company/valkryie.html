@@ -68,7 +68,7 @@
             <div id="home-row-1" class="row clearfix">
                 <div class="col-12">
                     <h1 class="font-semibold">Overview <span class="font-thin"></span></h1>
-                    <h5 class="font-thin"> Video <span class="font-semibold">Editing </span> Service </h5>
+                    <h5 class="font-thin"> Click on any section to see  <span class="font-semibold"></span> more info </h5>
                     <br>
                     <br>
                 </div>
@@ -115,6 +115,23 @@
     <div id="expand-vid">
         <button class="button-expand"></button>
       </div>
+      <div class="slide story" id="slide-overview-3" data-slide="1">
+              <div class="container">
+                  <div id="home-row-1" class="row clearfix">
+                      <div class="col-12">
+                          <h1 class="font-semibold">Add to cart<span class="font-thin"></span></h1>
+                          <h5 class="font-thin">Quick summary and how to order <span class="font-semibold"> </span>  </h5>
+                          <br>
+                          <br>
+                      </div>
+                      <!-- /col-12 -->
+                  </div>
+                  <!-- /row -->
+                  <!-- /row -->
+              </div>
+              <!-- /container -->
+          </div>
+    <div class = "cart-info">
     <div id = "main-pic">
     </div>
     <div id = "side">
@@ -127,6 +144,7 @@
     </div>
             <a href="valkryie.html"><button class="button-cart">Request a quote</button></a>
     </div>
+  </div>
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
 
 <!--
@@ -137,15 +155,21 @@
 <script>
     $(".vid-1").hide();
     $(".vid-2").hide();
+    $(".cart-info").hide();
     setTimeout(function()
     {
-    $('#slide-overview-1').hover(function()
+    $('#slide-overview-1').click(function()
     {
         $('.vid-1').fadeIn(1000)
     });
-    $('#slide-overview-2').hover(function()
+    $('#slide-overview-2').click(function()
     {
         $('.vid-2').fadeIn(1000)
+    });
+    $('#slide-overview-3').click(function()
+    {
+        $('.cart-info').fadeIn(1000)
+        $("#slide-overview-3").fadeOut();
     });
   },1500);
 
