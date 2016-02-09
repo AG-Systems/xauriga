@@ -79,8 +79,7 @@
         </div>
         <!-- /container -->
     </div>
-    <div class="vid">
-
+    <div class="vid-1">
     <iframe width="1920" height="1080" src="https://www.youtube.com/embed/1L0VFiP42ng?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
   </div>
     <button class="button-expand"></button>
@@ -100,8 +99,18 @@
             </div>
             <!-- /container -->
         </div>
+        <div class="vid-2">
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/1L0VFiP42ng?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+            <!--
+            <li> Music + Audio Placement</li>
+            <li> Transitions </li>
+            <li> Colour Correction </li>
+            <li> Special Effects </li>
+            <li> Green screening </li>
+            <li> Motion Tracking </li>
+          -->
+          </div>
     <div id="product-info-1">
-            <!-- <h3> Why choose us? </h3> -->
     </div>
     <div id="expand-vid">
         <button class="button-expand"></button>
@@ -111,14 +120,8 @@
     <div id = "side">
       <h3 align = "center"> Video Editing </h3>
       <hr>
-      <p> video editing is the process process of putting clips together with special effects and sound in post production. We offer flexibility and real time support.
+      <p> Video editing is the process process of putting clips together with special effects and sound in post production. We offer flexibility and real time support.
         Your video will have high quality video composition and porduction quality. </P>
-        <li> Music + Audio Placement</li>
-        <li> Transitions </li>
-        <li> Colour Correction </li>
-        <li> Special Effects </li>
-        <li> Green screening </li>
-        <li> Motion Tracking </li>
         <br>
     <div id="break-2">
     </div>
@@ -132,11 +135,18 @@
 </div>
 -->
 <script>
-    $(".vid").hide();
-
-    $('#expand-vid').hover(function()
+    $(".vid-1").hide();
+    $(".vid-2").hide();
+    setTimeout(function()
     {
-        $('.vid').fadeIn(1000)
+    $('#slide-overview-1').hover(function()
+    {
+        $('.vid-1').fadeIn(1000)
     });
+    $('#slide-overview-2').hover(function()
+    {
+        $('.vid-2').fadeIn(1000)
+    });
+  },1500);
 
     </script>

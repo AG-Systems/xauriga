@@ -1192,7 +1192,7 @@ h5
 }
 #product-info-1
 {
-	height: 500px;
+	height: 0;
 	width: 100%;
 	text-align: center;
 	float: right;;
@@ -1202,6 +1202,7 @@ li
 	font-size: 30px;
 	color: white;
 	margin-left: 30px;
+	text-align: center;
 }
 .button-hide {
     background-color: #0d0d0d; /* Green */
@@ -1220,4 +1221,8 @@ li
 }
 .button-hide:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#vid-2
+{
+	text-align: center;
 }
