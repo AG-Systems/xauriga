@@ -79,7 +79,10 @@
         </div>
         <!-- /container -->
     </div>
+    <div class="vid">
+
     <iframe width="1920" height="1080" src="https://www.youtube.com/embed/1L0VFiP42ng?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+  </div>
     <button class="button-expand"></button>
     <div class="slide story" id="slide-overview-2" data-slide="1">
             <div class="container">
@@ -100,28 +103,40 @@
     <div id="product-info-1">
             <!-- <h3> Why choose us? </h3> -->
     </div>
+    <div id="expand-vid">
         <button class="button-expand"></button>
+      </div>
     <div id = "main-pic">
     </div>
     <div id = "side">
       <h3 align = "center"> Video Editing </h3>
       <hr>
-      <p> Video editing is a process of putting clips togeather with special effects and sound in post production. We do offer flexibility and amazing support.
-        It will have high quality video composition and great video production quality. </P>
+      <p> video editing is the process process of putting clips together with special effects and sound in post production. We offer flexibility and real time support.
+        Your video will have high quality video composition and porduction quality. </P>
         <li> Music + Audio Placement</li>
         <li> Transitions </li>
         <li> Colour Correction </li>
         <li> Special Effects </li>
-        <li> Greencreening </li>
+        <li> Green screening </li>
         <li> Motion Tracking </li>
         <br>
     <div id="break-2">
     </div>
             <a href="valkryie.html"><button class="button-cart">Request a quote</button></a>
     </div>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
 
 <!--
 <div id = "overview-valkryie">
   <h4> Overview </h4>
 </div>
 -->
+<script>
+    $(".vid").hide();
+
+    $('#expand-vid').hover(function()
+    {
+        $('.vid').fadeIn(1000)
+    });
+
+    </script>
