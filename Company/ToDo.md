@@ -8,7 +8,9 @@ Fix so the pics are smaller. (Maybe) [x]
 
 Fix the products page. (Maybe the images wider and lower the height.) [x]
 
-Make the image/div valkrie clickable and make it expand add to cart function.
+Make the image/div valkrie clickable and make it expand add to cart function. [x]
+
+Make the main layout site contain more info without making it look nice and "textless".
 
 Name for products:
 
