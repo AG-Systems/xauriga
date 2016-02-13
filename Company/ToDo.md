@@ -43,3 +43,5 @@ Name for products:
   FORCE
 
   FUSION
+
+  EVE
