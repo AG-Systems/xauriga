@@ -297,11 +297,14 @@ body {
 	/* 	background-color: #1abc9c; */
 	color: #e4e6e5;
 	padding-top: 90px;
+	max-height: 15%;
 }
 
 	.title-row {
 		font-size: 45px;
-		padding-bottom: 50px;
+		padding-bottom: 10px;
+		/*padding-bottom: 50px; */
+		margin-top: -5%;
 	}
 
 	.line-row .hr {
